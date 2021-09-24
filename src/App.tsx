@@ -25,7 +25,7 @@ function App() {
   return (
     <Container>
       <Contents>
-        <Button label="추가" />
+        <Button label="추가" hoverColor="#000000" onClick={() => alert('추가')} />
       </Contents>
     </Container>
   );
